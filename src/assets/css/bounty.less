@@ -1,0 +1,370 @@
+.icon-cuowu, .icon-icon--yes {
+  font-size: 36px !important;
+  vertical-align: text-bottom;
+
+  @media screen and (max-width: 768px) {
+    font-size: 38px !important;
+  }
+}
+.tokeninformation{
+  display:inline-block;
+  width:240px!important;
+  margin-left:20px;
+}
+.mu-demo-form {
+  width: 100%;
+  max-width: 760px;
+  margin-top:20px;
+}
+
+.bounty {
+  margin: 0px 0px;
+  min-height: 400px;
+  margin-bottom: 50px;
+  color: $white;
+  background: #fff;
+  font-family:'PingFangSC'
+  h3{
+    color: rgba(102, 102, 102, 1);
+    // margin-left: 40px;
+    margin-bottom: 1%;
+    font-size: 32px;
+    font-weight: 400;
+    background: url('/img/boundty/pending.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 5%;
+    @media screen and (max-width: 769px) {
+      margin-left: 0;
+      font-size: 4vw;
+      padding-left: 10%;
+    }
+    @media screen and (max-width: 1000px) {
+
+      padding-left: 10%;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    margin: 0;
+  }
+
+  .bounty_banner {
+    background: url('/img/boundty/bannerbcg.png');
+    background-size: 100% 100%;
+    height: 650px;
+    @media screen and (max-width: 769px) {
+     height: 580px;
+  }
+    h2{
+      font-size:48px;
+      color:#5c6291;
+      font-weight:400;
+      padding-left:13%;
+      padding-top:150px;
+      width:50%;
+      @media screen and (max-width: 769px) {
+        font-size:18px;
+        padding-left:12%
+        margin-top:0px;
+        padding-top:23px;
+       }
+    }
+    p{
+       font-size:24px;
+       margin-top:48px;
+       width:53%;
+       padding-left:13%;
+       color:RGBA(102, 102, 102, 1);
+       @media screen and (max-width: 769px) {
+          font-size: 12px;
+          margin-top: 24px;
+          width: 64%;
+          padding-left: 12%
+       }
+    }
+    @media screen and (max-width: 769px) {
+      background: url('/img/boundty/bannerbcg_m.png');
+      height: 200px;
+      background-size: 100% 100%;
+    }
+  }
+
+  .bountyapp {
+    margin-bottom: 5%;
+    width: 80%;
+
+    @media screen and (max-width: 769px) {
+      width: 80%;
+      margin-top: 10%;
+    }
+
+    .align-items-start {
+      justify-content: normal !important;
+    }
+
+    &:nth-child(1) {
+      margin-top: 40%;
+    }
+
+    .bountycard {
+      list-style: none;
+      color: RGBA(102, 102, 102, 1);
+
+      @media screen and (max-width: 769px) {
+        // margin-left: -40px;
+      }
+      .bountyitem {
+        border: 1px solid RGBA(189, 195, 255, 1);
+        margin-top: 5%;;
+        height: 420px;
+        width: 95%;
+        padding: 10% 5%;
+        text-align: center;
+        position: relative;
+        margin-bottom: 10%;
+        border-radius:5px;
+        @media screen and (max-width: 769px) {
+          height:300px;
+          margin-bottom: 10%;
+           width: 100%;
+        }
+        div {
+          &:nth-child(1) {
+            font-size: 22px;
+            margin-bottom: 2%;
+            // display: -webkit-box;
+            //  -o-text-overflow: ellipsis;
+            // -webkit-box-orient: vertical;
+            // -webkit-line-clamp: 1;
+            // overflow: hidden;
+            @media screen and (max-width: 769px) {
+              font-size:15px;
+            }
+          }
+          &:nth-child(2) {
+            font-size: 16px;
+            color: #FFE43387;
+            margin-bottom: 8%;
+            position:relative;
+            @media screen and (max-width: 800px) {
+              font-size:11px;
+            }
+            img{
+              width: 19px;
+              height: 19px;
+              margin-left: -1px;
+              display: inline-block;
+              margin-bottom: -3px
+
+            }
+            span{
+              margin-left:2%
+            }
+          }
+          &:nth-child(3){
+            font-size:16px;
+            font-weight:400;
+            color:RGBA(102, 102, 102, 0.8)!important
+            @media screen and (max-width: 769px) {
+              font-size:11px;
+            }
+          }
+        }
+
+        .bountyaction {
+          position: absolute;
+          left: 50%;
+          width: 200px;
+          margin-left: -100px;
+          bottom: 35px;
+          font-size: 22px;
+          color: #fff;
+          border-radius: 10px;
+          height: 50px;
+          line-height: 38px;
+          .mu-button {
+            background: #002641;
+            color: #fff;
+            min-width: 170px;
+            border-radius: 10px;
+            @media screen and (max-width: 1200px) {
+             min-width: 120px;
+          }
+          }
+          .disabled{
+            background: RGBA(186, 191, 242, 1);
+          }
+          .mu-button-wrapper{
+            font-size:18px;
+          }
+        }
+
+        .mu-input-label {
+          color: #000;
+        }
+      }
+    }
+
+    .segmentation {
+      font-size: 24px;
+      margin:50px auto;
+      margin-top:0px;
+
+      @media screen and (max-width: 769px) {
+        margin-top: 7%;
+        margin-bottom: 7%;
+      }
+    }
+
+    .pagination {
+      text-align: center;
+      color: #3342E4;
+      margin-top: 4%;
+      width: 33%;
+      float: left;
+      cursor: pointer;
+      font-size:18px;
+      @media screen and (max-width: 769px) {
+        font-size: 18px;
+        margin-top: 0%;
+      }
+    }
+    .line {
+      margin-top: 5%;
+      border-image:linear-gradient(90deg, rgba(50,150,247,1), rgba(45,61,239,0.05)) 1 1;
+      border:1px solid;
+    }
+  }
+}
+.mu-dialog-title{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    // white-space:nowrap
+}
+.mu-dialog-body {
+  .mu-form-item-label {
+    padding-left: 14px;
+  }
+
+  .bountytextarea {
+    // background: RGBA(227, 227, 227, 0.6) !important;
+    width: 756px;
+    padding: 10px;
+    color: #999999;
+
+    @media screen and (max-width: 769px) {
+      width: 93%;
+    }
+
+    margin-bottom: 0px;
+    border-radius: 10px;
+    height: 127px;
+    margin: 10px 0;
+
+    .mu-input-content {
+      padding: 0;
+    }
+
+    .mu-input-line {
+      display: none;
+    }
+
+    .mu-input-focus-line {
+      display: none;
+    }
+  }
+
+  .bountyinput {
+    width: 520px;
+
+    @media screen and (max-width: 769px) {
+      width: 93%;
+    }
+
+    margin-bottom: 0px;
+    padding-top: 20px !important;
+    min-height: 67px;
+  }
+
+  .dialogaction {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .mu-button {
+      color: RGBA(153, 153, 153, 1);
+      min-width: 210px;
+
+      @media screen and (max-width: 769px) {
+        min-width: 100px;
+      }
+
+      border-radius: 10px;
+
+      &:hover {
+        background: #002641;
+        color: #fff;
+      }
+    }
+  }
+
+  .demo-button {
+    .mu-button-wrapper {
+      text-transform: capitalize;
+    }
+  }
+
+  strong {
+    color: RGBA(232, 22, 22, 1);
+    position: absolute;
+    top: 4px;
+  }
+
+  i {
+    font-style: normal;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+
+  .reward_p {
+    span:nth-child(2) {
+      padding-left: 13%;
+    }
+
+    span:nth-child(1) {
+      padding-left: 7%;
+      background: url('/img/boundty/reward.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      @media screen and (max-width: 769px) {
+        padding-left: 13%;
+      }
+    }
+
+    @media screen and (max-width: 769px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.dialog-show {
+  .mu-dialog-actions {
+    justify-content: center !important;
+
+    button {
+      color: rgba(255, 255, 255, 1);
+      background: rgba(56, 152, 242, 1);
+      border-radius: 10px;
+      width: 60%;
+    }
+  }
+}
+
+.mu-dialog {
+  border-radius: 10px;
+}
+
+.mu-input-focus-line, .mu-input__error .mu-input-line {
+     background-color: rgba(0,0,0,.12)
+    }
